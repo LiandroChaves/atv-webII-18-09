@@ -1,0 +1,101 @@
+.task {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto 16px;
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background: #181b24;
+    border: 1px solid #292e3a;
+    border-radius: 12px;
+}
+
+.taskHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleArea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleArea h2 {
+    margin: 0;
+    font-size: 17px;
+    color: #f5f5f5;
+}
+
+.check {
+    color: #6366f1;
+    font-size: 20px;
+}
+
+.description {
+    margin: 12px 0 12px 30px;
+    color: #8b93a7;
+    font-size: 14px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.statusDot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.statusPending {
+    color: #f59e0b;
+}
+
+.statusPending .statusDot {
+    background: #f59e0b;
+}
+
+.statusCompleted {
+    color: #22c55e;
+}
+
+.statusCompleted .statusDot {
+    background: #22c55e;
+}
+
+.actions {
+    display: flex;
+    gap: 6px;
+}
+
+.actions button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 9px;
+    color: #ddd;
+    background: #292e3a;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background: #363c4b;
+}
+
+.deleteButton:hover {
+    color: #ef4444 !important;
+}
+
+.completed {
+    opacity: 0.6;
+}
+
+.completed h2 {
+    text-decoration: line-through;
+}

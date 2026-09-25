@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./Header.module.css"
 
 export default function Header () {
     return (
         <>
-            <div>
+            <div className={styles.containerHeader}>
                 <h1>Tarefas</h1>
-                <p>veja as suas tarefas</p>
+                <h2>veja as suas tarefas abaixo:</h2>
             </div>
         </>
     )

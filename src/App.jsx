@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header';
-import TaskSummary from './components/TaskSummary';
-import TaskList from './components/TaskList';
+import Header from './components/Header/Header';
+import TaskSummary from './components/TaskSummary/TaskSummary';
+import TaskList from './components/TaskList/TaskList';
 
 function App() {
 

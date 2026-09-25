@@ -1,0 +1,9 @@
+.lista {
+    width: 100%;
+    max-width: 650px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -1,0 +1,19 @@
+.containerHeader {
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #292e3a;
+}
+
+.containerHeader h1 {
+    margin: 0;
+    color: #f5f5f5;
+    font-size: 36px;
+}
+
+.containerHeader h2 {
+    margin: 8px 0 0;
+    color: #8b93a7;
+    font-size: 16px;
+    font-weight: 400;
+}

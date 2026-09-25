@@ -1,9 +1,10 @@
-import TaskItem from "./TaskItem";
+import TaskItem from "../TaskItem/TaskItem";
+import styles from "./TaskList.module.css"
 
 export default function TaskList({tarefas, onConcluir, onExcluir}){
     return (
         <>
-            <div>
+            <div className={styles.lista}>
                 {tarefas.map((tarefa) => (
                     <TaskItem 
                         key={tarefa.id}
